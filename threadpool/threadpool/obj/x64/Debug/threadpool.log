@@ -1,0 +1,18 @@
+﻿  正在验证源
+  正在将源远程复制到“192.168.232.128”
+  正在验证体系结构
+  正在验证体系结构
+  正在启动远程生成
+  正在编译源:
+  threadpool.c
+C:\Users\q2762\Desktop\threadpool\threadpool\threadpool.c(55,58): warning : conversion to ‘long unsigned int’ from ‘int’ may change the sign of the result [-Wsign-conversion]
+C:\Users\q2762\Desktop\threadpool\threadpool\threadpool.c(55,58): warning :    55 |   pool->threadIDs = (pthread_t*)malloc(sizeof(pthread_t) * max);
+C:\Users\q2762\Desktop\threadpool\threadpool\threadpool.c(55,58): warning :       |                                                          ^
+C:\Users\q2762\Desktop\threadpool\threadpool\threadpool.c(61,48): warning : conversion to ‘long unsigned int’ from ‘int’ may change the sign of the result [-Wsign-conversion]
+C:\Users\q2762\Desktop\threadpool\threadpool\threadpool.c(61,48): warning :    61 |   memset(pool->threadIDs, 0, sizeof(pthread_t) * max);
+C:\Users\q2762\Desktop\threadpool\threadpool\threadpool.c(61,48): warning :       |                                                ^
+C:\Users\q2762\Desktop\threadpool\threadpool\threadpool.c(78,44): warning : conversion to ‘long unsigned int’ from ‘int’ may change the sign of the result [-Wsign-conversion]
+C:\Users\q2762\Desktop\threadpool\threadpool\threadpool.c(78,44): warning :    78 |   pool->taskQ = (Task*)malloc(sizeof(Task) * queueSize);
+C:\Users\q2762\Desktop\threadpool\threadpool\threadpool.c(78,44): warning :       |                                            ^
+  正在链接对象
+  threadpool.vcxproj -> C:\Users\q2762\Desktop\threadpool\threadpool\bin\x64\Debug\threadpool.out
